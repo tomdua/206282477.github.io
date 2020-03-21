@@ -1,0 +1,79 @@
+@import url('<link href="https://fonts.googleapis.com/css?family=Montserrat:500');
+
+body {
+	margin: 0;
+  }
+
+  .main{
+	position: fixed;
+	width: 100%;
+  }
+
+
+  .main-container {
+	display: flex;
+	justify-content: space-between;
+	background-color: #00ccff;
+	color: white;
+	height: 40px;
+	padding-top: 10px;
+  }
+
+  .sub-container {
+	display: flex;
+	padding-right: 80px;
+  }
+  
+  .option {
+	margin: 0 20px;
+  }
+  
+  .logo {
+	padding-left: 40px;
+	font-size: 24px;
+	font-family: Courier;
+	font-weight:bold;
+	font-size:40px;
+  }
+  
+  .hr {
+	height: 10px;
+	background-color: #00ccff;
+  }
+
+  h1 {
+	overflow: hidden;
+	text-align: center;
+  }
+
+  .about{
+	height: 350px;
+	display: s-block;
+	width: 100%;
+}
+
+h2:before, h2:after {
+
+	content: "";
+	flex: 1 1;
+	border-bottom: 5px solid #00ccff;
+	margin: auto;
+
+}
+#contact .emojicontainer{
+	width: 600px;
+	text-align: left;
+}
+
+#like{
+	height: 300px;
+	display: inline-block;
+	width: 100%;
+}
+
+#playlist iframe{
+	margin: 30px auto;
+
+}
+  
+  

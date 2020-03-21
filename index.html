@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Kobe Bryant</title>
+</head>
+<body>
+<header> 
+
+<div class = 'main'>
+<div class='main-container'>
+  <div class='logo'>BlacKMambA</div>
+  <div class='sub-container'>
+    <div class='option'><a href="#about"> About Me</a></div><span>|</span>
+    <div class='option'><a href="#photos"> My Photos</a></div><span>|</span>
+    <div class='option'><a href="#playlist"> My Playlist</a></div><span>|</span>
+    <div class='option'><a href="#like"> Like</a></div><span>|</span>
+    <div class='option'><a href="#qrcoder"> QR Code</a></div><span>|</span>
+    <div class='option'><a href="#spa"> Q&A</a></div><span>|</span>
+    <div class='option'><a href="#contact"> Contact Me</a></div>
+  </div>
+  </div>
+</div>
+</header>
+<br/>
+<br/>
+<style> 
+  h2 { 
+      display: flex; 
+      flex-direction: row; 
+  } 
+  
+</style>
+
+<div id="about">
+  <h2> Me</h2>
+  <p>My name is Kobe Bryant, my nickname is BlackMamba, I born in August 23, 1978. I was an American professional basketball player. I love my family so much, my wife and our daughters. I am a third year student at Ben Gurion University of the Negev in the Department of Information Systems Engineering. I enjoy programming in the department, learning about analysis and planning. I expect this course to learn more about web development and get to know as much as possible. </p>
+</div>
+
+<div id="photos">
+  <h2> My photos </h2>
+  <img src="1.jfif">
+  <img src="2.jpg">
+  <img src="logo1.jpg">
+</div>
+
+<div id="playlist">
+  <h2> My playlist </h2>
+  <br>
+  <audio controls>
+    <source src="Memories.mp3" type="audio/mpeg">
+      <source src="Memories.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+  </audio>
+  <br/>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLlVlyGVtvuVlOk5X6ejvIWZ4Y1CMTrEu6" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div id="like">
+  <h2> Give me a like </h2>
+  <br>
+  <div class="iframe-container2">
+    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FKobe%2F&width=450&layout=standard&action=like&size=small&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></div>
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FKobe%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+  </div>
+
+<div id="qrcoder">
+  <h2> Scan my code </h2>
+  <p> </p>
+</div>
+
+<div id="spa">
+  <h2> Ans  </h2>
+  <p> </p>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.1/emojionearea.min.css">
+ <link rel="stylesheet" href="style.css">
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.1/emojionearea.min.js"></script>
+
+
+<div id="contact">
+  <h2> Contact me  </h2>
+  <form action="mailto:tomdu@post.bgu.ac.il" method="post" enctype="text/plain">
+    Name:<br>
+    <input type="text" name="name"><br>
+    E-mail:<br>
+    <input type="text" name="mail"><br>
+    Comment:<br>
+   <div class="emojicontainer">
+      <textarea id="mytext" name="message" class="form-control" placeholder="Message" rows="4"></textarea>
+    </div>
+      <script>
+        $("#mytext").emojioneArea({
+      pickerPosition:"right"
+        });
+      </script>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+    </form>
+    
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>
