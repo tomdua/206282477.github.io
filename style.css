@@ -13,6 +13,7 @@ body {
 
 
   .main-container {
+	padding-bottom: 8px;
 	display: flex;
 	justify-content: space-between;
 	background-color: #00ccff;
@@ -24,6 +25,7 @@ body {
   .sub-container {
 	display: flex;
 	padding-right: 80px;
+	padding-top: 12px;
   }
   
   .option {
@@ -36,7 +38,7 @@ body {
 	font-family: Courier;
 	font-weight:bold;
 	font-size:40px;
-  }
+}
   
   .hr {
 	height: 10px;
@@ -86,5 +88,13 @@ h2:before, h2:after {
 	margin: 30px auto;
 
 }
-  
-  
+
+a:hover {
+	color: hotpink;
+	font-size: 20px;
+	
+  }
+  a {
+	text-decoration: none;
+	color: blue;
+  }
